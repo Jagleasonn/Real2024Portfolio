@@ -2,14 +2,29 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: #d62f2f;
+    background-color: #000000;
 }
 
 #main-container {
-    background-color: #d62f2f;
+    background-color: #5A3C86; 
     width: 1024px;
-    height: 3000px;
-    border: solid 1px black;
+    height: 1000px;
+}
+
+#gradient {
+    background-color: aqua;
+    display: flex;
+    background-image: linear-gradient(#5A3C86,#CDB4F3);
+    height: 500px;
+}
+
+#base {
+    height: 4000px;
+    background-color: #CDB4F3;
+}
+
+img {
+    width: 1025px;
 }
 
 
