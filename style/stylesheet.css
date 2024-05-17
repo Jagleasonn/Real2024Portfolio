@@ -33,7 +33,7 @@ body {
 }
 
 #base {
-    height: 4000px;
+    height: 1000px;
     width: 1025px;
     background-color: #CDB4F3;
     display: flex;
@@ -42,23 +42,28 @@ body {
 
 #image-two {
     width: 1800px;
-    height: 1000px;
+    height: 1025px;
     display: flex;
     justify-content: center;
     transform: translateX(30px);
 }
 
-/* image test */
-/* img {
-    width: 1025px;
-    height: 500px;
-} */
-
-
+/* second container */
 #second-container {
-    background-color: #ffffff;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
+    background-color: #F4BFEA;
+    width: 1025px;
+    height: 3000px;
+}
+
+#folder-image {
+    width: 444px;
+    height: 371px;
+    transform: translateY(100px);
+}
+
+#image-three {
+    width: 1025px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
